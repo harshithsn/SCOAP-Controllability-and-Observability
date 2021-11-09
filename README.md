@@ -48,4 +48,7 @@ SCOAP Observability In above figure CO_5 means Combinational Observability of no
 
 ![SCOAP-01](https://user-images.githubusercontent.com/63975346/140856015-57eaa5c0-ae93-4fed-8df2-4d5b622e47b2.png)
 
+In above figure at node 10 the values are (3,2) 13.  
+The values inside brackets represent Combinational Controllability. Here 3 is Combinational Controllability of 0 at node 10, similarly 2 is Combinational Controllability of 1 at node 10. 13 represents Combinational Observability of node 10
+
 # THANK YOU
