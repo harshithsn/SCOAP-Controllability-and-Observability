@@ -7,22 +7,23 @@ This project is based on Digital VLSI Testing and Testability. The netlist is gi
 
 # Example (4:1 MUX netlist is used for simulation)
 ```
-NAND 5 2 3
-AND 13 6 7
-AND 14 8 9
-AND 15 10 11
-AND 16 4 12
-OR 20 13 14
-OR 22 15 16
-NAND 23 18 19
-AND 24 20 23
-AND 25 21 22
-OR 26 24 25
-INPUT 1 7 9 11 12 17
-OUTPUT 26
-FANOUT 17 18 19 21
+NAND 5 3 4
+AND 14 6 7
+AND 15 8 9
+AND 16 10 11
+AND 17 12 13
+OR 21 14 15
+OR 23 16 17
+NAND 24 19 20
+AND 25 21 24
+AND 26 22 23
+OR 27 25 26
+INPUT 1 7 9 11 13 18
+OUTPUT 27
+FANOUT 1 2 8 12
+FANOUT 2 3 4
 FANOUT 5 6 10
-FANOUT 1 2 3 8 4 
+FANOUT 18 19 20 22
 ```
 
 ![mux-01](https://user-images.githubusercontent.com/63975346/140762141-6ed6b118-ce2d-4609-ae6a-2e8b598c3c0f.png)
@@ -50,5 +51,8 @@ SCOAP Observability In above figure CO_5 means Combinational Observability of no
 
 In above figure at node 10 the values are (3,2) 13.  
 The values inside brackets represent Combinational Controllability. Here 3 is Combinational Controllability of 0 at node 10, similarly 2 is Combinational Controllability of 1 at node 10. 13 represents Combinational Observability of node 10
+
+# Acknowledgement
+Rathnamala Rao, Assistant Professor, NITK Surathkal
 
 # THANK YOU
