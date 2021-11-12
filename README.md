@@ -53,6 +53,6 @@ In above figure at node 10 the values are (3,2) 13.
 The values inside brackets represent Combinational Controllability. Here 3 is Combinational Controllability of 0 at node 10, similarly 2 is Combinational Controllability of 1 at node 10. 13 represents Combinational Observability of node 10
 
 # Acknowledgement
-Rathnamala Rao, Assistant Professor, NITK Surathkal
+Dr. Rathnamala Rao, Assistant Professor, NITK Surathkal
 
 # THANK YOU
